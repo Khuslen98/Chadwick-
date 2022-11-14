@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+.form-container {
+    max-width: 650px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+#My-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 300px;
+}
+input {
+    width: 250px;
+    margin: 10px 0px;
+}
+.Form-Gender {
+    ;
+}
