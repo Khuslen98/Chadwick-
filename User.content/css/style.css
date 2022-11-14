@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+
 }
 .main {
     background-color: rgb(132, 134, 255);
@@ -28,6 +29,21 @@
     border-top-right-radius: 10px;
     width: 640px;
 }
-.container-1 input {
-    width: 100vw;
+.container-1 input, .container-2 input, select, button {
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 430px
+}
+.Con-1-names input, .Con-2-zip input, select {
+    width: 200px;
+}
+.Con-2-country, .container-1 select {
+    width: 430px;
+}
+input, select, button  {
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-radius: none ;
 }
